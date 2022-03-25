@@ -15,7 +15,7 @@
 ### Base de datos
 
 	No se incluyen script para generación de esquemas de datos para esta API.
-	La base de datos viene implicita en memoria junto a esta aplicación
+	La base de datos viene implicita en memoria (H2) junto a esta aplicación
 
 >spring.datasource.url=jdbc:h2:mem:bci_user_db
 
