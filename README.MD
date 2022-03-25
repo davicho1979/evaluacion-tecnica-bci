@@ -8,18 +8,25 @@
 
 ## Pauta de Ejecución (Ambiente Local):
 
-## Requisitos Previos
-	Java SDK 1.8 o superior
-	Gradle 6.6.1 o superior
+### Requisitos Previos
+	* Java SDK 1.8 o superior
+	* Gradle 6.6.1 o superior
 
-## Empaquetado de proyecto y resolución de dependencias(sin test)
+### Base de datos
+
+	No se incluyen script para generación de esquemas de datos para esta API.
+	La base de datos viene implicita en memoria junto a esta aplicación
+
+>spring.datasource.url=jdbc:h2:mem:bci_user_db
+
+### Empaquetado de proyecto y resolución de dependencias(sin test)
 >gradle clean build -x test
 
-## Ejecución del proyecto
+### Ejecución del proyecto
 >gradle bootRun
 
 Server Tomcat started on port(s): 8080 (http)
 http://127.0.0.1:8080
 
-## Ejecución de Test Unitarios
+### Ejecución de Test Unitarios
 >gradle test
