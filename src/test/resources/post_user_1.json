@@ -1,0 +1,17 @@
+{
+	"name": "Felipe Ferreiro",
+	"email": "feliz.972z@gmail.com",
+	"password": "Fw565dsw.!",
+	"phones": [
+		{
+			"number": "78765432",
+			"citycode": "5",
+			"countrycode": "57"
+		},
+		{
+			"number": "12345678",
+			"citycode": "67",
+			"countrycode": "57"
+		}        
+	]
+}

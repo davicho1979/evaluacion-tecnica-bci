@@ -1,0 +1,17 @@
+{
+	"name": "David Ortiz",
+	"email": "david.ortiz.albornoz@gmail.com",
+	"password": "1234",
+	"phones": [
+		{
+			"number": "98746994",
+			"citycode": "2",
+			"countrycode": "56"
+		},
+		{
+			"number": "67543212",
+			"citycode": "4",
+			"countrycode": "54"
+		}        
+	]
+}
