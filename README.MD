@@ -11,6 +11,10 @@
 ### Requisitos Previos
 	* Java SDK 1.8 o superior
 	* Gradle 6.6.1 o superior
+	
+### Clonar Repositorio	
+
+>git clone https://github.com/davicho1979/evaluacion-tecnica-bci.git
 
 ### Base de datos
 
